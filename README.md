@@ -77,3 +77,18 @@ namespace BMICalculator
 
 <p> Figure 2.4 | Developing the logic for calculating User BMI </p>
 <br/> <br/>
+
+```
+    public class BMIRecord
+    {
+        [PrimaryKey, AutoIncrement]
+        public int ID { get; set; }
+        public double Weight { get; set; }
+        public double Height { get; set; }
+        public double BMI { get; set; }
+        public DateTime Date { get; set; }
+    }
+```
+
+<p> Figure 2.5 | Storing User inputs into the database </p>
+<br/><br/>
