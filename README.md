@@ -35,3 +35,14 @@ namespace BMICalculator
 ```
 
 <p> Figure 2.2 | Initializing / rendering the app </p>
+
+```
+        private async void InitializeDatabase()
+        {
+            var databasePath = Path.Combine(FileSystem.AppDataDirectory, "bmi.db");
+            connection = new SQLiteAsyncConnection(databasePath);
+            await connection.CreateTableAsync<BMIRecord>();
+        }
+```
+
+<p> Figure 2.3 | Initializing SQLite </p>
