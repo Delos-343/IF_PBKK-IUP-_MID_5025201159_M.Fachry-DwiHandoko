@@ -3,8 +3,6 @@
 <h3> BMI Calculator App  :  .NET MAUI (C#) </h3>
 <hr>
 
-<br/>
-
 ```
 SQLite-net-pcl
 ```
