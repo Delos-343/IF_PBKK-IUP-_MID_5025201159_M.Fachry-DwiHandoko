@@ -3,6 +3,15 @@
 <h3> BMI Calculator App  :  .NET MAUI (C#) </h3>
 <hr>
 
+<br/>
+
+```
+SQLite-net-pcl
+```
+
+<p> Requires this NuGet Package </p>
+<br/><br/>
+
 ```
 <StackLayout>
     <Entry x:Name="weightEntry" Placeholder="Enter your weight in kg" />
