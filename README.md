@@ -49,3 +49,31 @@ namespace BMICalculator
 
 <p> Figure 2.3 | Initializing SQLite </p>
 <br/> <br/>
+
+```
+        private void OnCalculateBMI(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(weightEntry.Text) && !string.IsNullOrWhiteSpace(heightEntry.Text))
+            {
+                var weight = double.Parse(weightEntry.Text);
+                var height = double.Parse(heightEntry.Text) / 100;
+                var bmi = weight / (height * height);
+
+                resultLabel.Text = $"Your BMI is {bmi:F1}";
+
+                var record = new BMIRecord
+                {
+                    Weight = weight,
+                    Height = height,
+                    BMI = bmi,
+                    Date = DateTime.Now
+                };
+
+                connection.InsertAsync(record);
+            }
+        }
+    }
+```
+
+<p> Figure 2.4 | Developing the logic for calculating User BMI </p>
+<br/> <br/>
