@@ -97,5 +97,5 @@ namespace BMICalculator
     }
 ```
 
-<p> Figure 2.5 | Storing User inputs into the database </p>
+<p> Figure 2.5 | Create and store user inputs to the database </p>
 <br/><br/>
