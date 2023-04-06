@@ -2,7 +2,7 @@
 <br/><br/>
 <h3> BMI Calculator App  :  .NET MAUI (C#) </h3>
 <hr>
-<div>
+
 ```
 <StackLayout>
     <Entry x:Name="weightEntry" Placeholder="Enter your weight in kg" />
@@ -11,9 +11,10 @@
     <Label x:Name="resultLabel" />
 </StackLayout>
 ```
-</div>
+
 <p> Figure 1.1 | Create the UI </p>
 <br/> <br/>
+
 ```
 using SQLite;
 using System;
@@ -21,7 +22,9 @@ using System.IO;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 ```
+
 <p> Figure 2.1 | Set up the app environment </p>
+
 ```
 namespace BMICalculator
     public partial class MainPage : ContentPage
@@ -30,4 +33,5 @@ namespace BMICalculator
             InitializeComponent();
             InitializeDatabase();
 ```
+
 <p> Figure 2.2 | Initializing / rendering the app </p>
