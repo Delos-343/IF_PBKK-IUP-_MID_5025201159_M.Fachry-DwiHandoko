@@ -7,7 +7,7 @@
 		<StackLayout>
 			<Entry x:Name="weightEntry" Placeholder="Enter your weight in kg" />
 			<Entry x:Name="heightEntry" Placeholder="Enter your height in cm" />
-			<Button Text="Calculate BMI" Clicked="OnCalculateBMI" />
+			<Button Text="Calculate Your BMI" Clicked="OnCalculateBMI" />
 			<Label x:Name="resultLabel" />
 		</StackLayout>
 	</ScrollView>
