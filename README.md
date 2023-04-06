@@ -2,6 +2,7 @@
 <br/><br/>
 <h3> BMI Calculator App  :  .NET MAUI (C#) </h3>
 <hr>
+<div align="center">
 ```
 <StackLayout>
     <Entry x:Name="weightEntry" Placeholder="Enter your weight in kg" />
@@ -10,4 +11,5 @@
     <Label x:Name="resultLabel" />
 </StackLayout>
 ```
+</div>
 <p align="center"> Create the UI </p>
