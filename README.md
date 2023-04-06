@@ -24,6 +24,7 @@ using Xamarin.Forms;
 ```
 
 <p> Figure 2.1 | Set up the app environment </p>
+<br/> <br/>
 
 ```
 namespace BMICalculator
@@ -35,6 +36,7 @@ namespace BMICalculator
 ```
 
 <p> Figure 2.2 | Initializing / rendering the app </p>
+<br/> <br/>
 
 ```
         private async void InitializeDatabase()
@@ -46,3 +48,4 @@ namespace BMICalculator
 ```
 
 <p> Figure 2.3 | Initializing SQLite </p>
+<br/> <br/>
