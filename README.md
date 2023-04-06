@@ -10,4 +10,4 @@
     <Label x:Name="resultLabel" />
 </StackLayout>
 ```
-<p align-text="center"> Create the UI </p>
+<p align="center"> Create the UI </p>
