@@ -28,10 +28,10 @@ using Xamarin.Forms;
 ```
 namespace BMICalculator
     public partial class MainPage : ContentPage
-        private SQLiteAsyncConnection connection;
-        public MainPage()
-            InitializeComponent();
-            InitializeDatabase();
+        private SQLiteAsyncConnection connection
+        public MainPage
+            InitializeComponent
+            InitializeDatabase
 ```
 
 <p> Figure 2.2 | Initializing / rendering the app </p>
